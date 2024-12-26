@@ -1,0 +1,9 @@
+h5py
+requests
+fastapi
+uvicorn
+pyodbc
+numpy
+pillow
+keras
+tensorflow
