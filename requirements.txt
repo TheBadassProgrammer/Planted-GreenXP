@@ -2,7 +2,7 @@ h5py
 requests
 fastapi
 uvicorn
-pyodbc
+opencv-python
 numpy
 pillow
 keras
