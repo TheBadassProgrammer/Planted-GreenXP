@@ -1,7 +1,7 @@
 
-# 🌱 Plant Verification System – README
+# Plant Verification System – README
 
-## 📖 Overview
+## Overview
 This project implements an AI-powered image verification system to confirm that a tree or plant has been planted in a specified area. Users upload two images:
 
 1. **Before Image** – of the location before planting.
@@ -14,7 +14,7 @@ The system uses AI models and image processing techniques to verify that:
 ✔ A plant/tree is present in the second image  
 ✔ The plant/tree is located in the same area as in the first image
 
-## 📂 How It Works
+## How It Works
 
 The process follows the flowchart below:
 
@@ -48,7 +48,7 @@ The process follows the flowchart below:
    If overlap → Verification passed!  
    If not overlap → Flag for review.
 
-## ✅ Technologies Used
+## Technologies Used
 
 | Task                        | Technology / Library      |
 |----------------------------|---------------------------|
@@ -57,13 +57,13 @@ The process follows the flowchart below:
 | Feature matching           | OpenCV (ORB, SIFT, AKAZE) |
 | Review and fraud handling  | Manual review or alerts  |
 
-## 📦 Files
+## Files
 
 - **AI verification flowchart image** – Visual representation of the workflow.
 - **Backend service code** – API endpoints for image upload and processing.
 - **Frontend interface** – Web application for user interaction.
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository.
 2. Set up the environment with required dependencies (`tensorflow`, `opencv-python`, `requests`, etc.).
@@ -71,7 +71,7 @@ The process follows the flowchart below:
 4. Run the backend service.
 5. Access the frontend and upload images for verification.
 
-## 📥 Installation
+## Installation
 
 ```bash
 git clone <repository-url>
@@ -95,7 +95,7 @@ Or export it directly:
 export HF_API_TOKEN="your_actual_token"
 ```
 
-## ✅ Key Features
+## Key Features
 
 ✔ Image-based verification using AI models  
 ✔ Fraud detection by analyzing image contents  
@@ -103,7 +103,7 @@ export HF_API_TOKEN="your_actual_token"
 ✔ Spatial alignment verification using OpenCV  
 ✔ Extensible architecture with API integration  
 
-## 📂 Future Improvements
+## Future Improvements
 
 ✔ Add support for image metadata (GPS, timestamp)  
 ✔ Improve object detection accuracy with custom models  
@@ -111,7 +111,7 @@ export HF_API_TOKEN="your_actual_token"
 ✔ Enhance fraud prevention through pattern analysis  
 ✔ Deploy the solution using Docker or cloud platforms  
 
-## 📞 Contact
+## Contact
 
 For any questions or contributions, contact:
 
